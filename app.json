@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Location Share MVP",
+    "slug": "location-share-mvp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app uses your location to show it on the map and share it with your group.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "This app needs background location tracking to continue sharing your location."
+      }
+    },
+    "android": {
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION"
+      ]
+    }
+  }
+}
